@@ -2,6 +2,16 @@
 <h3 align="center"> Physical & Power-Saving Exploits Simulation </h3>
 <h5 align="center"> Research Project - <a href="https://linkedin.com/in/p1r3x">Pavan Raja - AM.SC.P2CSN24014</a> (2025) </h5>
 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2 id="overview"> Overview</h2>
+
+<p align="justify"> 
+  The project simulates a complete 5G network to analyze two primary categories of RedCap-specific vulnerabilities. By mimicking the hardware and protocol constraints of RedCap devices, we can observe how these limitations can be exploited.
+</p>
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2 id="table-of-contents"> Table of Contents</h2>
@@ -10,13 +20,13 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project"> ➤ About The Project</a></li>
-    <li><a href="#overview"> ➤ Overview</a></li>
     <li><a href="#architecture"> ➤ Architecture</a></li>
     <li><a href="#project-files-description"> ➤ Project Files Description</a></li>
     <li><a href="#setup-and-requirements"> ➤ Setup and Requirements</a></li>
     <li><a href="#scenario1"> ➤ Working on Scenario 1: Physical Layer Exploits </a></li>
     <li><a href="#scenario2"> ➤ Working on Scenario 2: Power-Saving Exploits </a></li>
     <li><a href="#results"> ➤ Results</a></li>
+    <li><a href="#accomplished"> ➤ Accomplished</a></li>
    <li><a href="#references"> ➤ References</a></li>
   </ol>
 </details>
@@ -29,13 +39,6 @@
   This project establishes a 5G Standalone (SA) testbed to investigate security vulnerabilities unique to <b>5G Reduced Capability (RedCap)</b> devices. While RedCap facilitates mid-tier IoT adoption by lowering device complexity and cost, these hardware limitations introduce new attack surfaces. This simulation focuses on validating <b>Physical Layer</b> and <b>Power-Saving</b> exploits using an open-source 5G core and RAN simulator.
 </p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<h2 id="overview"> Overview</h2>
-
-<p align="justify"> 
-  The project simulates a complete 5G network to analyze two primary categories of RedCap-specific vulnerabilities. By mimicking the hardware and protocol constraints of RedCap devices, we can observe how these limitations can be exploited.
-</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -122,12 +125,31 @@ $ make</code></pre>
 
 <p><b>3. Packet Analysis:</b> Wireshark captures on the loopback interface (<code>lo</code>) confirmed the exchange of <code>NGSetupRequest</code>, <code>Authentication Request</code>, and <code>Security Mode Command</code> packets.</p>
 
+1.5G-gNB
 ![5g-gNB](images/5g-gnb.png)
+
+2.log- NGAP and SCTP
 ![log-NGAP and SCTP](images/sctp&ngap.png)
+
+3.5G-UE
 ![5G-UE](images/5g-ue.png)
+
+4.log- RRC setup
 ![log- RRC setup](images/rrc-setup.png)
+
+5.RedCap-gNB
 ![RedCap-gNB](images/RedCap-gnb.png)
+
+6.RedCap-UE
 ![RedCap-UE](images/RedCap-ue.png)
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) 
+
+## <h2 id="accomplished"> Accomplished </h2>
+
+Completed writting - A Comprehensive Survey on 5G RedCap:Technologies, Security Vulnerabilities,and Attack Vectors (45-pages) - yet to submit / publish 
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <h2 id="references"> References </h2>
