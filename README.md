@@ -45,6 +45,7 @@
   This shows us the workflow of this Project .
 </p>
 ![Project Architecture](https://raw.githubusercontent.com/r-developers/abc/main/images/project-arch.png)
+![Project Architecture](images/project-arch.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
