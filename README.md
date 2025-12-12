@@ -43,10 +43,8 @@
 
 <p align="justify"> 
   This shows us the workflow of this Project .
-  ![Project Architecture](https://raw.githubusercontent.com/r-developers/abc/main/images/project-arch.png)
-
 </p>
-
+![Project Architecture](https://raw.githubusercontent.com/r-developers/abc/main/images/project-arch.png)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
