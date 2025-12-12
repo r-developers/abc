@@ -122,6 +122,12 @@ $ make</code></pre>
 
 <p><b>3. Packet Analysis:</b> Wireshark captures on the loopback interface (<code>lo</code>) confirmed the exchange of <code>NGSetupRequest</code>, <code>Authentication Request</code>, and <code>Security Mode Command</code> packets.</p>
 
+![5g-gNB](images/5g-gnb.png)
+![log-NGAP and SCTP](images/sctp&ngap.png)
+![5G-UE](images/5g-ue.png)
+![log- RRC setup](images/rrc-setup.png)
+![RedCap-gNB](images/RedCap-gnb.png)
+![RedCap-UE](images/RedCap-ue.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## <h2 id="references"> References </h2>
